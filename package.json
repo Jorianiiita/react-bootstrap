@@ -18,6 +18,7 @@
   },
   "scripts": {
     "build": "webpack --config config/webpack.development.config.js",
-    "watch": "webpack --config config/webpack.development.config.js --watch"
+    "watch": "webpack --config config/webpack.development.config.js --watch",
+    "start": "npm run watch & node src/server/server.js"
   }
 }

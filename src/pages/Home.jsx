@@ -7,9 +7,18 @@ class Home extends Component {
 
   render () {
     return (
-      <h1>HOME</h1>
+      <div style={styles}>
+        <h1>Welcome to React Bootstrap</h1>
+      </div>
     )
   }
+}
+
+const styles = {
+  position: 'absolute',
+  top: '40%',
+  left: '50%',
+  transform: 'translate3d(-50%,-50%,0)'
 }
 
 export default Home
